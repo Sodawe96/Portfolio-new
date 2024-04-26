@@ -358,6 +358,7 @@ img {
 }
 .footer__social {
   margin-bottom: var(--mb-4);
+  color: #fff;
 }
 .footer__icon {
   font-size: 1.5rem;
@@ -482,7 +483,12 @@ img {
     width: 450px;
   }
 }
-
+  transition: .4s ease;
+}
+ 
+.info a:hover{
+  transform: scale(1.05);
+}
 
 .skills_section{
   padding-bottom: 6rem;
